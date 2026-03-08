@@ -4,9 +4,13 @@ import dressImg from "@/assets/collection-dress.jpg";
 import topsImg from "@/assets/collection-tops.jpg";
 import skirtsImg from "@/assets/collection-skirts.jpg";
 import statementImg from "@/assets/collection-statement.jpg";
+import gallery1 from "@/assets/gallery-1.jpg";
+import gallery2 from "@/assets/gallery-2.jpg";
+import gallery3 from "@/assets/gallery-3.jpg";
+import gallery4 from "@/assets/gallery-4.jpg";
 import { Instagram } from "lucide-react";
 
-const images = [heroImg, dressImg, topsImg, skirtsImg, statementImg, stylingImg];
+const images = [gallery1, dressImg, gallery2, topsImg, gallery3, skirtsImg, gallery4, statementImg, heroImg, stylingImg];
 
 const InstagramGallery = () => {
   return (
@@ -29,9 +33,9 @@ const InstagramGallery = () => {
           </a>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
           {images.map((img, i) => (
-            <div key={i} className="relative group cursor-pointer overflow-hidden aspect-square">
+            <div key={i} className="relative group cursor-pointer overflow-hidden aspect-[3/4]">
               <img
                 src={img}
                 alt={`Lookbook image ${i + 1}`}

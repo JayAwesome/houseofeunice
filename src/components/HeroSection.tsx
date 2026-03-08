@@ -19,11 +19,11 @@ const HeroSection = () => {
           <p className="text-gold-light text-sm tracking-[0.3em] uppercase mb-6 animate-fade-up font-sans">
             House of Eunice Atelier
           </p>
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-primary-foreground leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Curated Thrift Fashion for Women Who Want to Stand Out
+          <h1 className="font-serif text-4xl md:text-5xl lg:text-7xl text-primary-foreground leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
+            Thrift Fashion for Women Who Want to Stand Out
           </h1>
           <p className="text-cream-dark text-lg md:text-xl font-light leading-relaxed mb-10 animate-fade-up font-sans" style={{ animationDelay: "0.4s" }}>
-            Intentional styling. Thoughtfully curated pieces. Confidence in every look.
+            We curate beautiful thrift pieces and transform them into stunning looks — elegance without the excessive cost.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: "0.6s" }}>
             <a
