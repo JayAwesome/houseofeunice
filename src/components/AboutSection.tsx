@@ -21,17 +21,23 @@ const pillars = [
 const AboutSection = () => {
   return (
     <section id="about" className="section-padding bg-card">
-      <div className="max-w-6xl mx-auto text-center">
-        <p className="text-accent text-sm tracking-[0.3em] uppercase mb-4 font-sans">About the Atelier</p>
-        <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mb-6">
-          More Than a Thrift Shop
-        </h2>
-        <div className="gold-divider mb-8" />
-        <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed mb-16 font-sans">
-          House of Eunice Atelier is a fashion atelier that curates, styles, and consults. 
-          We believe every woman deserves to look and feel extraordinary — sustainably, 
-          elegantly, and affordably.
-        </p>
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <p className="text-accent text-sm tracking-[0.3em] uppercase mb-4 font-sans">Our Story</p>
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground mb-6">
+            Why House of Eunice Exists
+          </h2>
+          <div className="gold-divider mb-8" />
+          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed mb-4 font-sans">
+            House of Eunice Atelier was born from a simple belief: <span className="text-foreground font-medium">every woman deserves to look extraordinary without paying extraordinary prices.</span>
+          </p>
+          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed mb-4 font-sans">
+            We curate beautiful thrift pieces — blending African elegance with international style — and transform them into stunning, ready-to-wear looks. Each piece is handpicked, styled with intention, and made for women who refuse to blend in.
+          </p>
+          <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed font-sans">
+            From Lagos to the world, we're building a fashion brand rooted in sustainability, confidence, and bold self-expression.
+          </p>
+        </div>
 
         <div className="grid md:grid-cols-3 gap-12">
           {pillars.map((pillar) => (
