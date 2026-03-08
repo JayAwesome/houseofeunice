@@ -34,8 +34,8 @@ const Footer = () => {
               <a href="mailto:hello@houseofeunice.com" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <Mail className="w-4 h-4" /> hello@houseofeunice.com
               </a>
-              <a href="tel:+2341234567890" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <Phone className="w-4 h-4" /> +234 123 456 7890
+              <a href="tel:+2348136183274" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <Phone className="w-4 h-4" /> +234 813 618 3274
               </a>
               <p className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" /> Lagos, Nigeria
