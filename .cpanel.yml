@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/collegeo/hea.collegeofchaplains.com
+    - export DEPLOYPATH=/home/collegeo/house.collegeofchaplains.com
     - /bin/cp -R * $DEPLOYPATH
