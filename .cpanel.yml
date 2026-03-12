@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/collegeo/house.collegeofchaplains.com
-    - /bin/cp -R * $DEPLOYPATH
+    - /usr/bin/npm install
+    - /usr/bin/npm run build
+    - /bin/cp -R dist/* $DEPLOYPATH
