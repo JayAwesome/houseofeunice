@@ -1,9 +1,5 @@
 ---
-# cPanel deployment configuration for houseofeunice
 deployment:
   tasks:
-    - echo "Starting deployment of houseofeunice..."
-    - export DEPLOY_DIR="$HOME/public_html/houseofeunice"
-    - echo "Deploying files to $DEPLOY_DIR..."
-    - rsync -av --exclude='.git' ./ $DEPLOY_DIR/
-    - echo "Deployment complete!"
+    - export DEPLOYPATH=/home/collegeo/hea.collegeofchaplains.com
+    - /bin/cp -R * $DEPLOYPATH
